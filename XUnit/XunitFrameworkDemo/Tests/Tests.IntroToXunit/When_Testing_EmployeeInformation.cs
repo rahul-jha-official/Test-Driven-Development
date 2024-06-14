@@ -26,6 +26,20 @@ public class When_Testing_EmployeeInformation
         Assert.Equal($"{employee.FirstName} {employee.LastName}", result);
     }
 
+    [Fact]
+    public void And_Age_Is_Calculated_Correctly()
+    {
+        //Arrange
+        var employee = GetTestEmployee();
+        var nearAge = DateTime.Now.Year - employee.DateOfBirth.Year;
+
+        //Act
+        var result = _target.GetEmployeeAge(employee);
+
+        //Assert
+        Assert.True(result + 1 == nearAge || result == nearAge);
+    }
+
     private static Employee GetTestEmployee()
     {
         return new Employee
@@ -33,7 +47,7 @@ public class When_Testing_EmployeeInformation
             Id = 1,
             FirstName = "Priyansh",
             LastName = "Chaturvedi",
-            DateOfBirth = new DateOnly(1996, 10, 17)
+            DateOfBirth = new DateOnly(1996, 8, 7)
         };
     }
 }
