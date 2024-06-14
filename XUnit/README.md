@@ -9,3 +9,8 @@ xUnit.net is a free, open source, community-focused unit testing tool for the .N
 -	Easy to install via NuGet Package Manager
 -	Is the default unit testing tool in Visual Studio for .Net Core
 
+# Setup XUnit Test Project
+-	Create a different project in your solution for writing tests
+-	Install xunit using NuGet Package Manager
+-	For running test case in Visual Studio you need 'xunit.runner.visualstudio'
+-	Also Install Microsoft.NET.Test.Sdk

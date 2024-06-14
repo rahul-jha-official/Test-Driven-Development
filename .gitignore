@@ -4,3 +4,8 @@
 
 /XUnit/XunitFrameworkDemo/.vs
 /XUnit/XunitFrameworkDemo/XunitFrameworkDemo/obj
+/XUnit/XunitFrameworkDemo/Tests/obj
+/XUnit/XunitFrameworkDemo/IntroToXunit/obj
+/.gitignore
+/XUnit/XunitFrameworkDemo/IntroToXunit/bin/Debug/net8.0
+/XUnit/XunitFrameworkDemo/Tests/bin/Debug/net8.0
