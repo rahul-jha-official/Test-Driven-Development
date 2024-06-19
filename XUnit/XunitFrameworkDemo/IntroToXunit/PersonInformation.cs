@@ -2,14 +2,18 @@
 
 namespace IntroToXunit;
 
-public class EmployeeInformation
+public class PersonInformation
 {
-    public string GetEmployeeFullName(Employee employee)
-    {        
+    public string GetFullName(Person? employee)
+    {
+        if (employee is null || string.IsNullOrWhiteSpace(employee.FirstName) || string.IsNullOrWhiteSpace(employee.LastName))
+        {
+            throw new ArgumentException("FullName cannot be calculated.");
+        }
         return string.Concat(employee.FirstName, ' ', employee.LastName);
     }
 
-    public int GetEmployeeAge(Employee employee)
+    public int GetAge(Person employee)
     {
         var currentYear = DateTime.Now.Year;
         var yearOfBirth = employee.DateOfBirth.Year;
