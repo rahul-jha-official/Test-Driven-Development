@@ -17,7 +17,7 @@ xUnit.net is a free, open source, community-focused unit testing tool for the .N
 
 # Fact vs Theory Attribute 
 -	[Fact]
-	The Fact attribute is used to mark a method as a test method. It signifies that the method represents a fact that should always be true.
+	</br>The Fact attribute is used to mark a method as a test method. It signifies that the method represents a fact that should always be true.
 	-	A test marked with the Fact attribute represents a single test case.
 	-	If the test method throws an exception or fails an assertion, the test is considered failed.
 -	[Theory]
