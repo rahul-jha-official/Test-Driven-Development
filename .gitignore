@@ -9,3 +9,5 @@
 /.gitignore
 /XUnit/XunitFrameworkDemo/IntroToXunit/bin/Debug/net8.0
 /XUnit/XunitFrameworkDemo/Tests/bin/Debug/net8.0
+/XUnit/XunitFrameworkDemo/IntroToFactoryDesign/bin/Debug/net8.0
+/XUnit/XunitFrameworkDemo/IntroToFactoryDesign/obj

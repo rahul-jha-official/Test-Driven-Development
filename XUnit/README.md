@@ -14,3 +14,23 @@ xUnit.net is a free, open source, community-focused unit testing tool for the .N
 -	Install xunit using NuGet Package Manager
 -	For running test case in Visual Studio you need 'xunit.runner.visualstudio'
 -	Also Install Microsoft.NET.Test.Sdk
+
+# Fact vs Theory Attribute 
+-	[Fact]
+	The Fact attribute is used to mark a method as a test method. It signifies that the method represents a fact that should always be true.
+	-	A test marked with the Fact attribute represents a single test case.
+	-	If the test method throws an exception or fails an assertion, the test is considered failed.
+-	[Theory]
+	-	The Theory attribute is used to define a parametrized test. It allows testing multiple inputs against the same test logic.
+	-	You provide one or more data sources (via attributes like InlineData, MemberData, etc.) to supply the test with different input values.
+	-	Each set of input values is treated as a separate test case.
+	-	If any of the test cases fail, the entire theory is considered failed.
+
+In summary, Fact is used for individual test cases, while Theory is used for parameterized tests where the same test logic is applied to multiple sets of inputs.
+
+# Grouping tests in XUnit.Net
+-	Multiple tests can be grouped into one category
+-	Categories allow us to view and run the test in batches
+-	Grouping is done via [Trait] attribute
+-	Visual Studio for windows is the best tool to work with Groups
+-	Attribute can be applied on class or method.
