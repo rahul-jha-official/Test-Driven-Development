@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroToXunit", "IntroToXuni
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroToFactoryDesign", "IntroToFactoryDesign\IntroToFactoryDesign.csproj", "{5D4238D4-1C0F-4C32-9103-B8F3019E980D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{60BA64C8-3909-4F2D-8529-4B4C13F7B94D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{60BA64C8-3909-4F2D-8529-4B4C13F7B94D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToReflection", "IntroToReflection\IntroToReflection.csproj", "{FE322C3C-12E8-4B92-ADCC-A7464AF37A5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{60BA64C8-3909-4F2D-8529-4B4C13F7B94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60BA64C8-3909-4F2D-8529-4B4C13F7B94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60BA64C8-3909-4F2D-8529-4B4C13F7B94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE322C3C-12E8-4B92-ADCC-A7464AF37A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE322C3C-12E8-4B92-ADCC-A7464AF37A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE322C3C-12E8-4B92-ADCC-A7464AF37A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE322C3C-12E8-4B92-ADCC-A7464AF37A5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

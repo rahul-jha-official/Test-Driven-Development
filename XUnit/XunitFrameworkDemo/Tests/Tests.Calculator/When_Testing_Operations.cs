@@ -1,12 +1,16 @@
 ﻿using Calculator;
 using Xunit;
 
-namespace Tests.Test.Calculator;
+namespace Tests.Tests.Calculator;
 
 /// <summary>
 /// Each test in the test class invoke constructor even if you declare the object in constructor of test class 
 /// Here you can use Class Fixture
 /// Fixture let you create singleton instance
+/// 
+/// What if you want to inject fixture in multiple classes which share same target ?
+/// Create a fixture same as below with attribute CollectionDefination in different file
+/// Create tests class with Attribute Collection and Inject fixture.
 /// </summary>
 
 public class When_Testing_Operations : IClassFixture<OperationFixture>

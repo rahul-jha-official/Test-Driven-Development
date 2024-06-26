@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Calculator\Calculator.csproj" />
     <ProjectReference Include="..\IntroToFactoryDesign\IntroToFactoryDesign.csproj" />
+    <ProjectReference Include="..\IntroToReflection\IntroToReflection.csproj" />
     <ProjectReference Include="..\IntroToXunit\IntroToXunit.csproj" />
   </ItemGroup>
 
