@@ -1,6 +1,3 @@
-# Test-Driven-Development
-Test-driven development (TDD) is a way of writing code that involves writing an automated unit-level test case that fails, then writing just enough code to make the test pass, then refactoring both the test code and the production code, then repeating with another new test case.
-
 # Software Tests
 
 **Manual Tests**
@@ -28,6 +25,9 @@ Test-driven development (TDD) is a way of writing code that involves writing an 
 - Usually created when the code already exists, and we are getting ready for some changes, for example, major refactoring.
 
 <img width="496" alt="image" src="https://github.com/user-attachments/assets/773bdfdf-054c-40e2-8487-c09e43db61d7">
+
+# Test-Driven-Development
+Test-driven development (TDD) is a way of writing code that involves writing an automated unit-level test case that fails, then writing just enough code to make the test pass, then refactoring both the test code and the production code, then repeating with another new test case.
 
 # Unit Testing
 - Unit test is an automated test that verifies if a single unit of a program works as expected.
