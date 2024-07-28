@@ -84,7 +84,7 @@ Test-driven development (TDD) is a way of writing code that involves writing an 
 - We can run them easily and effortlessly.
 - With unit tests, we are not afraid to refactor the code.
 
-** Without Refactoring**
+**Without Refactoring**
 - The quality of the code degrades over time.
 - Adding functionality changes gets harder.
 - Adding functionality changes get more expensive.
